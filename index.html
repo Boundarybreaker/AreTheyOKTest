@@ -4,18 +4,27 @@
         <title>Are They OK</title>
         <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-    <script src="semantic/dist/semantic.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="semantic/dist/semantic.min.js"></script>
+        <script src="main.js"></script>
     </head>
     <body>
-<h1>Label Tests</h1>
-<div class="ui items">
+    <ul class="nav">
+        <li><h1 class="nav">Are They OK?</h1></li>
+        <li class="active"><a href=index.html>Home</a></li>
+        <li><a href=networks.html>Networks</a></li>
+    </ul>
+    <div class="small-spacer"></div>
+<div class="ui divided items">
     <div class="item">
         <div class="image">
-            <div class="ui green right ribbon label"><i class="thumbs up icon"></i></div>
+            <a class="ui green right corner label">
+                <i class="thumbs up icon"></i>
+            </a>
             <img src=http://i.cubeupload.com/kXlF0q.jpg>
         </div>
         <div class="content">
-            <a class="header">Stable Dummy</a>
+            <a class="header" href=Users/stable-dummy.html>Stable Dummy</a>
             <div class="meta">
                 <span>This user is currently <b>stable</b>.</span>
             </div>
@@ -29,6 +38,9 @@
     </div>
     <div class="item">
         <div class="image">
+            <a class="ui red right corner label">
+                <i class="emergency icon"></i>
+            </a>
             <img src=http://i.cubeupload.com/kXlF0q.jpg>
         </div>
         <div class="content">
@@ -42,15 +54,17 @@
             <div class="extra">
                 Last updated twelve hours ago ago
             </div>
-            <div class="ui red large label"><i class="emergency icon"></i></div>
         </div>
     </div>
     <div class="item">
         <div class="image">
+            <a class="ui yellow right corner label">
+                <i class="help icon"></i>
+            </a>
             <img src=http://i.cubeupload.com/kXlF0q.jpg>
         </div>
         <div class="content">
-            <a class="header">Unknown Dummy<div class="ui yellow large label"><i class="help icon"></i></div></a>
+            <a class="header">Unknown Dummy</a>
             <div class="meta">
                 <span>This user is currently <b>unknown</b>.</span>
             </div>
@@ -64,10 +78,13 @@
     </div>
     <div class="item">
         <div class="image">
+            <a class="ui yellow right corner label">
+                <i class="warning sign icon"></i>
+            </a>
             <img src=http://i.cubeupload.com/kXlF0q.jpg>
         </div>
         <div class="content">
-            <a class="header">Unstable Dummy<div class="ui yellow circular label"><i class="warning sign icon"></i></div></a>
+            <a class="header">Unstable Dummy</a>
             <div class="meta">
                 <span>This user is currently <b>unstable</b>.</span>
             </div>
@@ -81,12 +98,14 @@
     </div>
     <div class="item">
         <div class="image">
+            <a class="ui black right corner label">
+                <i class="add user icon"></i>
+            </a>
             <img src=http://i.cubeupload.com/kXlF0q.jpg>
         </div>
         <div class="content">
-            <a class="header">Unstable Dummy</a>
+            <a class="header">Support Dummy</a>
             <div class="meta">
-                <div class="ui black left pointing label"><i class="add user icon"></i></div>
                 <span>This user is a support-only member.</span>
             </div>
             <div class="description">
@@ -105,9 +124,9 @@
             <img src=http://i.cubeupload.com/kXlF0q.jpg>
         </div>
         <div class="content">
-            <a class="header">Unstable Dummy</a>
+            <a class="header">Pending Dummy</a>
             <div class="meta">
-                <span>This user has notindicated a trust level for you.</span>
+                <span>This user has not indicated a trust level for you.</span>
             </div>
             <div class="description">
                 <p></p>
@@ -118,6 +137,5 @@
         </div>
     </div>
 </div>
-
     </body>
 </html>

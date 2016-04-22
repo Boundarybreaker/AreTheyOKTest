@@ -2,3 +2,53 @@ body {
     font-family: 'Lato', sans-serif;
     position: relative;
 }
+.navbar {
+    background-color: #34aadc;
+    height: 70px;
+    font-family: 'Lato', sans-serif;
+}
+.nav h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 5px;
+}
+a {
+    color: #34aadc;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34aadc;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #5ac8fa;
+    color: white;
+}
+.active {
+    background-color: #5ac8fa;
+}
+h2 {
+    padding: 50px;
+}
+.spacer {
+    height: 50px;
+}
+.small-spacer {
+    height: 42px;
+}
